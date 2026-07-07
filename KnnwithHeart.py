@@ -73,7 +73,7 @@ A9 = st.number_input("กรุณาเลือกข้อมูล A9")
 A10 = st.number_input("กรุณาเลือกข้อมูล A10")
 A11 = st.number_input("กรุณาเลือกข้อมูล A11")
 
-if st.button("ทำนายผล"):
+if st.button("ทำนายผล ยังไงนะ"):
    #st.write("ทำนาย")
    #dt = pd.read_csv("./data/iris-3.csv") 
    X = dt.drop('HeartDisease', axis=1)
